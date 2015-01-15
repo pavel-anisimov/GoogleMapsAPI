@@ -1,6 +1,8 @@
 Google Maps API Assignment:
 Store Locator Project
 
+Link to the page: <a href='http://maps.pavel.us/'>maps.pavel.us</a>.
+
 Objective: To build a store locator web application
 
 Grading: You will be marked on overall design as well as implementing the components listed below in line with the best practices
