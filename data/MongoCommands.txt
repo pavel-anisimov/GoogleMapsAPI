@@ -1,0 +1,5 @@
+Import Data
+
+> mongoimport --headerline --type csv --db maps_api --collection addresses --file ./StoreLocationData.csv
+
+https://github.com/pavel-anisimov/GoogleMapsAPI

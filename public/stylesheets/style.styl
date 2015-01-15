@@ -1,0 +1,373 @@
+* {
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  -ms-box-sizing border-box
+  box-sizing border-box
+  font-family Roboto,Arial,sans-serif
+}
+
+body
+  margin 0
+  padding 0
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  -ms-box-sizing border-box
+  box-sizing border-box
+
+.container
+  margin 0
+  width 100%
+
+.footer
+  background-color #252519
+  footer
+    width 980px
+    margin 20px auto 0 auto
+    color whitesmoke
+    height 100px
+    position relative
+    #copyright
+      right 10px
+      bottom 10px
+      position absolute
+
+.ref
+  background-color #606060
+.referenceTitle
+  padding 40px 10px 10px 10px
+  line-height 50px
+  color #f8f8f8
+  font-size 25px
+  width 980px
+  margin-left auto
+  margin-right auto
+
+.referenceIcons
+  width 980px
+  margin 20px auto auto auto
+  > div
+    display inline-block
+    width 20%
+    min-width 120px
+    height 150px
+    background-repeat no-repeat
+    background-position center
+  > #html5
+    background-image url("/images/html5.png")
+  > #css3
+    background-image url("/images/css3.png")
+  > #iojs
+    background-image url("/images/iojs.png")
+  > #jade
+    background-image url("/images/jade.png")
+  > #stylus
+    background-image url("/images/stylus.png")
+  > #jquery
+    background-image url("/images/jquery.png")
+  > #mongodb
+    background-image url("/images/mongodb.png")
+  > #googlemaps
+    background-image url("/images/googlemaps.png")
+  > #javascript
+    background-image url("/images/javascript.png")
+  > #express
+    background-image url("/images/express.png")
+  > #npm
+    background-image url("/images/npm.png")
+  > #ubuntu
+    background-image url("/images/ubuntu.png")
+  > #digitalocean
+    background-image url("/images/digitalocean.png")
+#block
+  font-family Arial, Helvetica, sans-serif
+  margin 0px auto
+  width 980px
+  line-height 1.2em
+
+a
+  font-weight bold
+  text-decoration none
+  color #00B7FF
+
+#form
+  width 980px
+  margin-left auto
+  margin-right auto
+  > input
+    color #2f4f4f
+    height 50px
+    border 1px darkgray solid
+    border-radius 4px
+    box-shadow 2px 2px 4px 1px #C0C0C0
+    margin-bottom 20px
+    font-size 30px
+    padding 10px
+    line-height 50px
+
+  > #your_address
+    width 670px
+
+  > #number
+    margin-left 20px
+    width 170px
+
+  > #submit
+    color #ffffff
+    background-color #a9a9a9
+    font-size 30px
+    text-align center
+    margin-left 20px
+    display inline-block
+    cursor pointer
+    width 100px
+    line-height 50px
+    border 1px darkgray solid
+    border-radius 4px
+    box-shadow 2px 2px 4px 1px #C0C0C0
+
+.margin
+  margin-top 150px
+  -webkit-animation myfirst 5s
+  animation myfirst 5s
+
+.hidden
+  display none
+
+#map_canvas
+  width 100%
+  height 600px
+  margin-left auto
+  margin-right auto
+  border 1px darkgray solid
+  border-radius 3px
+  box-shadow: 2px 2px 4px 1px #C0C0C0
+
+header, section
+  padding 20px 0
+
+.header, .stores
+  border 1px darkslategray solid
+  border-radius 5px
+  margin 5px
+  padding 5px
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  -ms-box-sizing border-box
+  box-sizing border-box
+
+.header
+  font-weight bold
+
+.name, .address, .coordinates
+  height 50px
+  display inline-block
+
+.name
+  width 200px
+
+.address
+  width 400px
+
+.coordinates
+  width 200px
+
+
+.storeName
+  font-weight bold
+
+#display
+  > div
+    font-size 30px
+    display inline-block
+    line-height 50px
+    box-shadow 2px 2px 4px 1px #c0c0c0
+    border-radius 4px
+  > #refresh, > #print
+    color #f5f5f5
+    background-color #79C290
+    text-align center
+    margin-bottom 20px
+    cursor pointer
+    width 150px
+    float right
+  > #print
+    background-color #a9a9a9
+    margin-right 20px
+  > #result
+    width: 100%;
+    padding: 0 10px 0 10px;
+    background-color #5987fb
+    color #f5f5f5
+    margin-bottom 20px
+    font-size 30px
+
+#directions
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  -ms-box-sizing border-box
+  box-sizing border-box
+  font-family Roboto,Arial,sans-serif
+  padding 5px 0 5px 0px
+  width 100%
+
+  > .label
+    box-shadow 2px 2px 4px 1px #C0C0C0
+    width 100%
+    border-radius 4px
+    background-color #5987FB
+    color #f5f5f5
+    padding 10px
+    font-size 120%
+    margin 10px 0 5px 0
+    cursor pointer
+  > .direction
+    > .total
+      -moz-box-sizing border-box
+      -webkit-box-sizing border-box
+      -ms-box-sizing border-box
+      box-sizing border-box
+      width 100%
+      font-size 125%
+      padding 5px 0 5px 20px
+      > div
+        display inline-block
+      > .via
+        width 60%
+      > .time
+        width 20%
+        font-weight bold
+      > .distance
+        width 20%
+    > .start, > .end
+      border-top 1px solid #888
+      border-botom 1px solid #888
+      padding 10px 0 10px 20px
+      width 100%
+      -moz-box-sizing border-box
+      -webkit-box-sizing border-box
+      -ms-box-sizing border-box
+      box-sizing border-box
+      font-size 125%
+      line-height 2em
+
+.rout
+  border-top 1px #bbb solid
+  padding 5px 0 5px 20px
+  font-size 110%
+  > .sub
+    padding 5px 0 5px 25px
+    border-top 1px #ddd solid
+    font-size 85%
+    color #3d3d3d
+    > .distance
+      font-size 85%
+      color #a9a9a9
+  > .sub:first-of-type
+    border-top none
+
+.error
+  border 1px #df0000 solid !important
+  background-color #ff908d
+  color white !important
+
+@media screen and (max-width: 980px)
+  .referenceIcons, #footer, #block, .referenceTitle, #form
+    padding-left 5px
+    padding-right 5px
+    width 95%
+    width calc(100% - 10px)
+
+  #your_address, #map_canvas
+    box-shadow: 1px 1px 3px 1px #c0c0c0
+
+  #form
+    > input
+      font-size 25px
+      line-height 25px
+      padding 5px 10px 5px 10px
+      height 45px
+    > #your_address
+      width 95%
+      width calc(100% - 10px)
+    > #number
+      width 50%
+      min-width 170px
+      margin-left 0
+    > #submit
+      margin-left calc(50% - 210px)
+      width 200px
+      font-size 25px
+      line-height 43px
+  #display
+    > #refresh, > #result, > #print
+      font-size 25px
+      line-height 43px
+
+
+@media screen and (max-width: 636px) and (min-width: 501px)
+  .margin
+    margin-top 40px
+    margin-bottom 40px
+
+@media screen and (max-width: 500px)
+  #display
+    > #refresh, > #result, > #print
+      font-size 25px
+      line-height 43px
+      margin-left 0
+    > #refresh
+      width 95%
+      width calc(100% - 10px)
+    > #refresh, > #print
+      width 45%
+      width calc(50% - 10px)
+
+  .margin
+    margin-top 40px
+    margin-bottom 40px
+  #form
+    > #number
+      font-size 25px
+      line-height 25px
+      padding 5px 10px 5px 10px
+      height 45px
+      width 95%
+      width calc(100% - 10px)
+    > #submit
+      font-size 25px
+      line-height 43px
+      margin-left 0
+      width 95%
+      width calc(100% - 10px)
+
+
+@media print
+  *
+    -moz-box-shadow none !important
+    -o-box-shadow none !important
+    -webkit-box-shadow none !important
+    box-shadow none !important
+
+  .ref, .links
+    display none !important
+
+  #print, #refresh
+    display none !important
+
+  #display > #result, #directions > .label
+    border 1px solid #3d3d3d
+    background-color #fff
+    color #3d3d3d
+
+  .footer
+    background-color #fff
+    border-top 2px solid #2b2b2b
+    width 100%
+    margin auto
+    > #footer
+      min-height 50px
+      height 50px
+      color black
+      text-align center
+      margin-top 0px
+
